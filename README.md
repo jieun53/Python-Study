@@ -2,30 +2,34 @@
 -Python Study
 -Started 2023.04.02
 
-#Date: 2023.04.02
--Print Hello world!
+## Date: 2023.04.02
+### Print Hello world!
+```
 print("Hello, world!")
+```
 
--Add Two Numbers
-# This program adds two numbers
+### Add Two Numbers
+```
+//This program adds two numbers
 num1 = 1.5
 num2 = 6.3
 
-# Add two numbers
+//Add two numbers
 sum = num1 + num2
 
-# Display the sum
+//Display the sum
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 
 
-# Store input numbers
+//Store input numbers
 num1 = input('Enter first number: ')
 num2 = input('Enter second number: ')
 
-# Add two numbers
+//Add two numbers
 sum = float(num1) + float(num2)
 
-# Display the sum
+//Display the sum
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 
 print('The sum is %.1f' %(float(input('Enter first number: ')) + float(input('Enter second number: '))))
+```
